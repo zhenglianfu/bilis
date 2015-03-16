@@ -1,0 +1,9 @@
+{
+	"version" : "0.1.0",
+	"name" : "bilis",
+	"descript" : "前端资源扫描工具",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/zhenglianfu/bilis.git"
+	}
+}
