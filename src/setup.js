@@ -1,5 +1,6 @@
+
 (function(){
-	var dependence = {
+	var dependence = {		
 		undersocre : 'npm install undersocre'
 	},
 	exec = require('child_process').exec,
@@ -11,11 +12,6 @@
 		} 
 	};
 	for (var i in dependence) {
-		exec(dependence, log);
-	}
-	if (errors.length) {
-		console.error("done! But has some errors", errors);
-	} else {
-		console.log("done without error");
+		exec(dependence[i], log);
 	}
 }());
